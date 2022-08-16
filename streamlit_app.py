@@ -46,4 +46,8 @@ streamlit.header("The fruit load list contains")
 streamlit.dataframe(my_data_rows)
 
 
+streamlit.write('Thanks for adding')
+my_cur.execute("insert nto fruit_load_list values ('from streamlit')")
+
+
 
